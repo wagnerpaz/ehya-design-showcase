@@ -8,7 +8,7 @@ interface HeroSectionInfoProps extends ComponentProps<"div"> {}
 const HeroSectionInfo: React.FC<HeroSectionInfoProps> = ({ className }) => {
   return (
     <div className={classNames("text-primary flex flex-col", className)}>
-      <h2 className="font-hk font-bold mb-6 text-[56px] leading-[68px]">
+      <h2 className="font-hk font-bold mb-6 text-[56px] leading-[68px] mt-[66px]">
         TheFutureTalks <br />
         Conference
       </h2>
