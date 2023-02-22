@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
 
 import Header from "/components/Header";
 import HeroSection from "/components/HeroSection/HeroSection";
+import SponsorsSection from "../components/SponsorsSection";
 
 export default function Home() {
   return (
@@ -15,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto">
-        <Header />
+        <Header className="mb-8" />
         <HeroSection />
+        <SponsorsSection className="mt-[86px]" />
       </main>
     </>
   );
