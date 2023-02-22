@@ -9,13 +9,21 @@ module.exports = {
       white: "#FFF",
       gray: "#5A7184",
       lightgray: "#E5EAF4",
+      lightgreen: "#36B37E",
+      lightestgreen: "#36B37E1A",
     },
     container: {
       screens: {
         xl: "1204px",
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "future-of-work": "url('/images/future-of-work.png')",
+        "future-of-data": "url('/images/future-of-data.png')",
+        "future-of-learning": "url('/images/future-of-learning.png')",
+      },
+    },
   },
   plugins: [],
 };

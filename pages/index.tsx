@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "/components/Header";
 import HeroSection from "/components/HeroSection/HeroSection";
 import SponsorsSection from "../components/SponsorsSection";
+import ConferenceTopicsSection from "/components/ConferenceTopicsSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <Header className="mb-8" />
         <HeroSection />
         <SponsorsSection className="mt-[86px]" />
+        <div className="w-full border-t-[1px] text-lightgray mt-[145px]" />
+        <ConferenceTopicsSection className="mt-[144px]" />
       </main>
     </>
   );
