@@ -4,6 +4,7 @@ import Header from "/components/Header";
 import HeroSection from "/components/HeroSection/HeroSection";
 import SponsorsSection from "../components/SponsorsSection";
 import ConferenceTopicsSection from "/components/ConferenceTopicsSection";
+import Quote from "/components/Quote";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
         <SponsorsSection className="mt-[86px]" />
         <div className="w-full border-t-[1px] text-lightgray mt-[145px]" />
         <ConferenceTopicsSection className="mt-[144px]" />
+        <Quote className="w-[950px] mb-10" author="Steve Jobs, Apple">
+          We belief was that if we kept putting great products in front of
+          customers, they would continue to open their wallets.
+        </Quote>
       </main>
     </>
   );

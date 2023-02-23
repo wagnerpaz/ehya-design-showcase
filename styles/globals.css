@@ -5,6 +5,13 @@
 @font-face {
   font-family: "HK Grotesk";
   font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/HKGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HK Grotesk";
+  font-style: normal;
   font-weight: bold;
   src: url("/fonts/HKGrotesk-Bold.otf") format("opentype");
 }
